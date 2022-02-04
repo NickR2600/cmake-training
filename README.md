@@ -2,10 +2,8 @@
 Support code and environment for JFrog Academy's CMake training
 
 # Usage
-1. git clone or download the conan-training reporitory
-2. cd conan-training/cmake-docker-environment (on your machine)
+1. `git clone` or download the conan-training reporitory.
+2. Navigate to `conan-training/cmake-docker-environment` on your machine.
 3. Open a terminal and enter:
-
-    docker-compose up -d
-    docker exec -it cmake-training bash
-
+-   `docker-compose up -d`
+-   `docker exec -it cmake-training bash`
