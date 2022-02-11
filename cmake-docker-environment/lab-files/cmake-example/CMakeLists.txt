@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.16.3)
+cmake_minimum_required(VERSION 3.9.1)
 
 project(greetingTest)
 
-add_executable(${PROJECT_NAME} main.cpp greeting.cpp)
+add_executable(greeting main.cpp greeting.cpp)
