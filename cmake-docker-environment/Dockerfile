@@ -5,6 +5,7 @@ USER root
 RUN apt-get -qq update \
     && apt-get -qq install -y --no-install-recommends \
        tree \
+       graphviz \
        vim \
        nano \
        less \
