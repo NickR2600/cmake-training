@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\nickri\Documents\CMake Course\Lessons\Labs test enviornment\lab-files\generate-library-windows\greeting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nickri\Documents\CMake Course\Lessons\Labs test enviornment\lab-files\generate-library-windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BF40B7E4-3085-337B-9459-C9FF213C2E0D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
