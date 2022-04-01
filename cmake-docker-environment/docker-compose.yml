@@ -8,4 +8,4 @@ services:
             context: .
         command: tail -f /dev/null
         volumes:
-            - ./lab-files:/home/conan/cmake-training/lab-files
+            - ./cmake-labs:/cmake-labs

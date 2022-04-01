@@ -1,4 +1,4 @@
-FROM conanio/gcc7:1.40.4
+FROM ubuntu:22.04
 
 USER root
 
@@ -9,12 +9,10 @@ RUN apt-get -qq update \
        vim \
        nano \
        less \
-       g++-arm-linux-gnueabihf \
+       sudo \
+       g++ \
+       make \
+       ninja-build \
        cmake
 
-USER conan
-
-RUN conan profile new default --detect
-RUN conan profile update settings.compiler.libcxx=libstdc++11 default
-
-WORKDIR /home/conan/cmake-training/lab-files
+WORKDIR /cmake-labs
