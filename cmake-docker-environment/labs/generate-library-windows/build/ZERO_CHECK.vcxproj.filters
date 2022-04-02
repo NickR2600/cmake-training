@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nickri\Documents\CMake Course\Lessons\Labs master environment\cmake-docker-environment\lab-files\generate-library-windows\build\CMakeFiles\97b5f43319ecb2cf5419ecd973391dea\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0BAEA1A7-1A24-374B-A006-110C755C2E0C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
