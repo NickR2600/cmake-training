@@ -1,6 +1,6 @@
 
 greetingTest: main.o greeting.o
-	g++ *.o -o greetingTest
+	g++ -o greetingTest main.o greeting.o
 
 main.o: main.cpp
 	g++ -c main.cpp
