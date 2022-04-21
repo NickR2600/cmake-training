@@ -1,3 +1,0 @@
-C:/Users/nickri/Documents/CMake Course/Lessons/Labs master environment/cmake-docker-environment/lab-files/consume-shared-library-windows/build/CMakeFiles/consumer.dir
-C:/Users/nickri/Documents/CMake Course/Lessons/Labs master environment/cmake-docker-environment/lab-files/consume-shared-library-windows/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/nickri/Documents/CMake Course/Lessons/Labs master environment/cmake-docker-environment/lab-files/consume-shared-library-windows/build/CMakeFiles/ZERO_CHECK.dir
