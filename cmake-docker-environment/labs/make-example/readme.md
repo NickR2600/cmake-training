@@ -1,9 +1,22 @@
 # make-example
 Source code for testing g++ commands and a makefile
 
-# Usage
-1. `git clone` or download the conan-training reporitory.
-2. Navigate to `cmake-training/cmake-docker-environment` on your machine.
-3. Open a terminal and enter:
--   `docker-compose up -d`
--   `docker exec -it cmake-training bash`
+## Exercise 1: Generate Object Files
+   ```
+   $ cd make-example
+   $ g++ -c main.cpp
+   $ g++ -c greeting.cpp
+   ```
+
+## Exercise 2: Link Object Files into an Executable
+   ```
+   $ g++ -o greetingTest main.o greeting.o
+   $ ./greetingTest
+   ```
+   
+## Exercise 3: Building from a MakeFile file
+Edit the source code so that some, but not all files will recompile. Call make and run the executable.
+   ```
+   $ make
+   $ ./greetingTest
+   ```
