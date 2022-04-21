@@ -22,12 +22,3 @@ Commands for generating a STATIC library and consume it from an executable. Befo
    $ rm libgreeting.a
    $ ./greeting
    ```
-
-
-
-
-For a SHARED library enter:
-   ```
-   $ cmake -D BUILD_SHARED_LIBS=true ..
-   $ make
-   ```
