@@ -24,7 +24,7 @@ Commands for generating a SHARED library and consume it from an executable. Befo
    ```
 
 ## Exercise 4: Change the greeting, rebuild the library, and run the old executable
-###greeting.cpp###
+**greeting.cpp**
    ```
    #include "greeting.h"
    #include <iostream>
@@ -34,7 +34,7 @@ Commands for generating a SHARED library and consume it from an executable. Befo
    }
    ```
 
-###CMakeLists.txt###
+**CMakeLists.txt**
    ```
    cmake_minimum_required(VERSION 3.9.1)
    project(contumerTest)
@@ -43,7 +43,7 @@ Commands for generating a SHARED library and consume it from an executable. Befo
    target_include_directories(greeting PUBLIC ${CMAKE_CURRENT_LIST_DIR}/greeting/include)
    ```
 
-###Command Line###
+**Command Line**
    ```
    cmake -D BUILD_SHARED_LIBS=true ..
    make
