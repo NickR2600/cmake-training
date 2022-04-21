@@ -1,5 +1,5 @@
-# cmake-training
-Support code and environment for JFrog Academy's CMake training
+# make-example
+Source code for testing g++ commands and a makefile
 
 # Usage
 1. `git clone` or download the conan-training reporitory.
