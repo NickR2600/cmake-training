@@ -1,4 +1,4 @@
-#include "dependencies/libgreeting/include/greeting.h"
+#include "greeting.h"
 
 int main() {
 	sayHello();
